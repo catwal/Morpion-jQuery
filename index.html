@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jeu du Morpion</title>
+
+        <link rel="stylesheet" href="./app.css">
+        <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="./app.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1>Jeu du Morpion Maison</h1>
+            <div class="infos">
+                <span class="player0">Joueur 1</span>
+                <span>-</span>
+                <span class="player1">Joueur 2</span>
+            </div>
+
+        </header>
+        <div id="results">
+
+        </div>
+
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <footer>
+            <button onclick="morpion.reset()">Rejouons !</button>
+        </footer>
+    </body>
+</html>
